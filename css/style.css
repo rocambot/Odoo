@@ -1,0 +1,777 @@
+/*Blue background configuration setting on the top starts here*/
+.background{
+    height:850px;
+    background: #038aff;
+    position: relative;
+}
+
+.background:before{
+    content: '';
+    position: absolute;
+    bottom:0; right:0;
+    border-bottom: 80px solid white;
+    border-left: 2000px solid #038aff;
+    width: 0;
+}
+/*Blue background configuration setting on the top ends here*/
+
+/*Odoo logo configuration setting on the top left starts here*/
+#website-logo{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+/*Odoo logo configuration setting on the top left ends here*/
+
+/*corner section configuration setting on the top right starts here*/
+.top-nav{
+    font-size:20px;
+}
+
+.top-btn-buy-now{
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight:bold;
+}
+
+.top-btn{
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.bag{
+    margin-right:15px;
+}
+/*corner section configuration setting on the top right ends here*/
+
+/*logo in the left section configuration setting on the develop done right starts here*/
+#google-logo{
+    width: 80px;
+    height: 80px;
+    display: inline;
+}
+
+#spotify-logo{
+    width: 80px;
+    height: 80px;
+    display:inline;
+}
+
+#paypal-logo{
+    width: 80px;
+    height: 80px;
+    display:inline;
+}
+/*logo in the left section configuration setting on the develop done right starts here*/
+
+/*white rectangle background in the right section configuration setting for card information starts here*/
+.white-rectangle{
+    width:360px;
+    height:550px;
+        border-radius: 0px 0px 50px 0px;
+          background: white;
+}
+/*white rectangle background in the right section configuration setting for card information ends here*/
+
+/*card information in white rectangle background in the right section configuration setting starts here*/
+.card-text{
+    padding-left: 25px;
+    color: black;
+}
+
+.inside-button{
+    position:absolute;
+    top:6%;
+    right: 30%;
+    border: #e1e8f0 solid;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    padding-top: 3px;
+    padding-bottom:6px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+#mastercard-img{
+    width:50px;
+    height:50px;
+    margin-left:25px;
+}
+
+.card-btn{
+position:absolute;
+left:78%;
+top:6%;
+background-color:#5ccaa7;
+color:white;
+border-radius: 6px;
+}
+
+.card-background{
+    margin-left:15px;
+    width:330px;
+    height:210px;
+    border-radius: 5px;
+    background: #1f1247;
+    position: relative;
+}
+
+.text-color{
+    padding-left:25px;
+    color:white;
+    font-size:13px;
+}
+
+.card-number{
+    padding-left:50px;
+    color:white;
+    font-size:25px;
+}
+
+.name-color{
+    padding-left:25px;
+    float:left;
+    color:white;
+    font-size:13px;
+}
+
+.date-color{
+    padding-left:150px;
+    float:left;
+    color:white;
+    font-size:13px;
+}
+
+.name-b{
+    padding-left:25px;
+    float:left;
+    color:white;
+    font-size:19px;
+}
+
+.date-b{
+    padding-left:110px;
+    float:left;
+    color:white;
+    font-size:19px;
+}
+
+.starbuck-text{
+padding-top:20px;
+padding-left:25px;
+font-weight:bold;
+display: inline-block;
+}
+
+.price-text{
+    padding-top:20px;
+    padding-left:150px;
+    font-weight:bold;
+    display: inline-block;
+    }
+
+.pending{
+    color:grey;
+    padding-left:20px;
+    font-size: 13px;
+}
+
+.nike-price-text{
+    padding-top:20px;
+    padding-left:120px;
+    font-weight:bold;
+    display: inline-block;
+    }
+
+.view-more{
+    color:blue;
+    padding-left:20px;
+}
+/*card information in white rectangle background in the right section configuration setting ends here*/
+
+/*Tool section in the left section configuration setting starts here*/
+#person-1{
+    width: 270px;
+    height: 270px;
+    position: absolute;
+    right:0%;
+    top:-30%;
+    border-radius: 10px;
+    
+}
+
+.video-btn{
+    position:absolute;
+    top: -20%;
+    left:82%;
+    border:none;
+    background-color: white;
+    border-radius: 10px;
+    font-size: 14px;
+    cursor: pointer;
+    padding: 6px;
+}
+
+/*Tool section in the left section configuration setting ends here*/
+
+/*Tool section in the right section configuration setting starts here*/
+.text-color-white{
+    color:grey;
+}
+/*Tool section in the right section configuration setting ends here*/
+
+/* Feature section in the right section configuration setting starts here*/
+.icon-text{
+    display:inline-block;
+    padding-left:10px;
+    color:#28a745;
+}
+
+#person-2{
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    border-radius: 10px;
+}
+
+.video-btn-1{
+    position:absolute;
+    top: 5%;
+    left:7%;
+    border:none;
+    background-color: white;
+    border-radius: 10px;
+    font-size: 14px;
+    cursor: pointer;
+    padding: 6px;
+}
+/* Feature section in the right section configuration setting ends here*/
+
+/* Technology section in the right section configuration setting starts here*/
+a.see-case{
+    text-decoration:underline;
+}
+
+#person-3{
+    width:180px;
+    height:180px;
+    border-radius: 5px 5px 0px 0px;
+}
+/* Technology section in the right section configuration setting ends here*/
+
+/* Technology section in the left section configuration setting starts here*/
+.black-rectangle{
+    width:180px;
+    height:230px;
+    display: inline-block;
+    background: white;
+    border:white solid 2px;
+    
+}
+
+.JH{
+    background-color:orange;
+    color:white;
+    width:35px;
+    height:35px;
+    font-size:14px;
+    display: inline-block;
+    text-align: center;
+    border-radius:50%;
+    padding-top: 6px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.jimmy{
+    color:black;
+    display: inline-block;
+    font-size:10px;
+    font-weight: bold;
+}
+
+.small-rectangle{
+    width:180px;
+    height:105px;
+    display: inline-block;
+    background:white;
+}
+
+.tick{
+    background-color:rgb(35, 87, 35);
+    color:white;
+    width:35px;
+    height:35px;
+    font-size:14px;
+    display: inline-block;
+    text-align: center;
+    border-radius:50%;
+    padding-top: 6px;
+    margin-top: 5px;
+    margin-left: 2px;
+}
+
+.ccomponents{
+    color:black;
+    display: inline-block;
+    font-size:12px;
+    font-weight: bold;
+    padding-left:5px;
+}
+
+.built{
+    color:grey;
+    display: inline-block;
+    font-size:12px;
+    padding-left:10px;
+}
+
+.airbnb-rectangle{
+    width:190px;
+    height:230px;
+    display: inline-block;
+    background: white;
+    border:white solid 2px;
+    
+}
+
+#airbnb-logo{
+    width:50%;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 40px;
+}
+
+.star{
+    padding-left:40px;
+    padding-top: 25px;
+}
+
+.star-text{
+    color:black;
+    display: inline-block;
+    font-size:12px;
+    font-weight: bold;
+    text-align:center;
+}
+
+.review{
+    color:grey;
+    display: inline-block;
+    font-size:12px;
+    padding-left:45px;
+}
+
+#airbnb-logo{
+    width:50%;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 40px;
+}
+
+.website-rectangle{
+    width:190px;
+    height:245px;
+    display: inline-block;
+    background: white;
+    border:white solid 2px;
+    
+}
+
+.website-text{
+    color:black;
+    display: inline-block;
+    font-size:16px;
+    font-weight: bold;
+    padding-left:39px;
+}
+
+#company1-logo{
+    border-radius:50%;
+    width:30%;
+    margin-left:auto;
+    margin-right:auto;
+    display: block;
+    margin-top:20px;
+
+}
+
+.star-text{
+    color:black;
+    display: inline-block;
+    font-size:12px;
+    font-weight: bold;
+    padding-left:39px;
+}
+
+#dude1-logo{
+    border-radius:50%;
+    width:20%;
+    display: inline-block;
+    margin-top:20px;
+}
+/* Technology section in the left section configuration setting ends here*/
+
+/* Easy to install section in the right section configuration setting starts here*/
+.pic{
+    margin-left:50px;
+}
+/* Easy to install section in the right section configuration setting ends here*/
+
+/* Easy to install section in the left section configuration setting starts here*/
+.app-store-rectangle{
+    width:180px;
+    height:85px;
+    display: inline-block;
+    background:black;
+    margin:25px;
+}
+
+.play-store-rectangle{
+    width:180px;
+    height:85px;
+    display: inline-block;
+    background:black;
+    margin:25px;
+}
+.app{
+    color: white;
+    display: inline-block;
+}
+
+.smaller-text{
+    font-size:12px;
+    color:white;
+    display:inline;
+    padding-left:10px;
+}
+.larger-text{
+    font-size:16px;
+    color:white;
+    text-align: center;
+    padding-left:20px;
+}
+/* Easy to install section in the right section configuration setting ends here*/
+
+/* Soultion section in the right section configuration setting starts here*/
+.long-rectangle{
+   width:auto;
+   height:250px;
+ background: #161348;
+ border-radius: 0px 50px 0px 50px;
+}
+
+.solution{
+    color:white;
+    padding-top: 7%;
+    padding-left:5%;
+}
+
+.solution-text{
+    color:white;
+    padding-left:5%;
+    display: block;
+}
+
+.learn-more{
+    position:absolute;
+    left:83%;
+    top:45%;
+    background-color:white;
+    padding:9px 9px;
+    border-radius: 10%;
+}
+/* Soultion section in the right section configuration setting ends here*/
+
+/* Awards section configuration setting starts here*/
+
+.grey-background{
+    height:650px;
+    background: #fafbff;
+    position: relative;
+    margin-top:85px;
+}
+
+.grey-background:before{
+    content: '';
+    position: absolute;
+    bottom:0; right:0;
+    border-bottom: 80px solid white ;
+    border-left: 2000px solid #fafbff;
+    width: 0;
+}
+
+/* Awards section configuration setting ends here*/
+
+/*Card start part*/
+.container-1 {
+    display: inline-flex;
+    justify-content: flex-start;
+  }
+  
+  .f-card {
+    height: 200px;
+    width: 200px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    position: relative;
+    margin: 0 5px;
+    border-radius:5%;
+  }
+
+  .f-card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    opacity: 0.5;
+  }
+  
+  .first-card {
+    top: 50px;
+    right:30px;
+  }
+
+  .container-2 {
+    display: inline-flex;
+    justify-content: center;
+  }
+
+  .f-card-2 {
+    height: 200px;
+    width: 200px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    position: relative;
+    margin: 0 5px;
+    border-radius:5%;
+    margin-left: 50px;
+  }
+
+  .f-card-2:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    opacity: 0.5;
+  }
+  
+  
+  .second-card {
+    top: 50px;
+    right:30px;
+  }
+
+  .container-3 {
+    display: inline-flex;
+    justify-content: flex-end;
+  }
+
+  .f-card-3 {
+    height: 200px;
+    width: 200px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    position: relative;
+    border-radius:5%;
+    margin-left: 50px;
+  }
+
+  .f-card-3:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    opacity: 0.5;
+  }
+  
+  #airbnb-logo-card{
+    width:50%;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 35px;
+}
+
+.star-card{
+    padding-left:50px;
+    padding-top: 25px;
+}
+
+.star-text-card{
+    color:black;
+    display: inline-block;
+    font-size:16px;
+    font-weight: bold;
+    text-align:center;
+    padding-left:35px;
+    padding-top:15px;
+    
+}
+
+.review-card{
+    color:grey;
+    display: inline-block;
+    font-size:12px;
+    padding-left:55px;
+}
+
+.text-setting{
+    color:grey;
+    font-size: 13px;
+    text-align: center;
+}
+
+a.learn-more-anchor{
+    text-decoration:underline;
+    color:black;
+    margin-left: 25px;
+    padding-left:35px;
+}
+.file{
+        margin-right:15px;
+    }
+    
+    .plus{
+        top:21px;
+        right:5%;
+        position:absolute;
+    }
+/*Card end part*/
+  
+ /*answer faq start part*/
+
+.helpful-answer{
+    text-align: center;
+}
+
+.text-description{
+    color:grey;
+    text-align: center;
+    padding-top:10px;
+}
+ /*answer faq end part*/
+
+/* new project start part*/
+.new-project{
+    text-align: center;
+}
+
+.buy-now{
+    background-color: #038aff;
+    color:white;
+    border-radius: 5px;
+    border:none;
+    padding:8px;
+    position:absolute;
+    top:80%;
+    left:39%;
+    display:inline-block;
+    padding-left:20px;
+
+}
+
+.project-more{
+    color:black;
+    border:none;
+    background-color: transparent;
+    display:inline-block;
+    position:absolute;
+    top:90%;
+    left:53%;
+
+}
+  /* new project ends part*/
+
+/* footer sections start*/
+.footer-background{
+    height:705px;
+    background: #161348;
+    position: relative;
+    margin-top:85px;
+}
+
+.footer-background:before{
+    content: '';
+    position: absolute;
+    top:0; right:0;
+    border-top: 80px solid white ;
+    border-right: 2000px solid #161348;
+    width: 0;
+}
+
+.footer-text{
+    color:white;
+
+}
+
+.footer-text-1{
+    color:white;
+    font-size: 20px;
+
+}
+
+.document{
+    background-color: white;
+    padding:16px;
+    border-radius: 5px;
+    border: none;
+    margin-left:170px;
+    font-size: 18px;  
+}
+
+.purchase{
+    background-color: #038aff;
+    color:white;
+    padding:15px;
+    border-radius: 5px;
+    border: none;
+    font-size: 18px;
+    float:right;
+}
+
+.odoo-footer-text{
+    color:#aba9be;
+}
+
+.dribble{
+    color: grey;
+}
+
+.github{
+    color: grey;
+    
+}
+
+.h5-text{
+    color:white;
+}
+
+.color-text{
+    color:#9facbf;
+}
+
+.account-margin{
+    margin-left: 160px;
+}
+
+.odoo-color{
+    color:white;
+    display: inline-block;
+}
+
+.right-reserved{
+    color:#9facbf;
+    display: inline-block;
+}
+
+.terms{
+    color:#9facbf;
+    float:right;
+    margin-left:50px;
+    display: inline;
+}
+/* footer section ends*/
